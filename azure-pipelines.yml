@@ -10,9 +10,3 @@ steps:
   inputs:
     mavenPomFile: 'pom.xml'
     goals: 'clean package -DskipTests'
-
-- task: PublishTestResults@2
-  inputs:
-    testResultsFiles: '**/target/surefire-reports/TEST-*.xml'
-    mergeTestResults: true
-    testRunTitle: 'Maven Unit Tests'
