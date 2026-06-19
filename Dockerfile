@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-LABEL maintainer="praveen-ct" \
+LABEL maintainer="sanjana-br" \
 project="devops2exp" \
 description="Tripillar Solutions static website served via Nginx"
 
